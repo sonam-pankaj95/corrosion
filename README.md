@@ -19,3 +19,4 @@ Properties of each pixels is studied on the basis of change in entropy with resp
 on the third image when we pic a certain pixel with the cursor it goes into the svm and predict if it will corroded or non corroded. Even if has been done for one image. The average rate of could be used for training in the svm for multiple images and then tested on multiple images. 
 
 image3
+![image1](https://user-images.githubusercontent.com/27013287/62392090-2904c600-b584-11e9-84c1-e161a0117f1e.jpg)
