@@ -2,7 +2,15 @@
 estimating corrosion using image processing and SVM or n-layered NN
 
 
-Basically, I am using the property of Entropy variation with contrast to find a corroded area or patch on a metal surface because CNN is not good enough for classification of corrosion. We though of using the property of Natural vs Artificial texture and pass it through a svm or any n-layered neural network. 
+Basically, I am using the property of Entropy variation with contrast to find a corroded area or patch on a metal surface because CNN is not good enough for classification of corrosion. We though of using the property of Natural vs Artificial texture and pass it through a svm or any n-layered neural network.
+
+A Co-Occurence Matrix, also referred to as a co occurrence distribution is defined over an image to be the distribution of co-occurring values at a given offset, Represents the distance and angular spatial relationship over an image sub region of specific size. The GLCM calculates how often a pixel with grayscale intensity value i occurs either horizontally, vertically or diagonally to adjacent pixels with the value of i. 
+
+![image](https://user-images.githubusercontent.com/27013287/62852151-3c432e80-bd06-11e9-95eb-1dba3fa6c923.png)
+
+
+
+
 
 The First Image is corroded and is imported as image1
 
@@ -10,6 +18,7 @@ The First Image is corroded and is imported as image1
 
 
 The non Corroded Image is 
+
 
 ![new](https://user-images.githubusercontent.com/27013287/62390693-80089c00-b580-11e9-826d-3b3963acef22.jpg)
 
@@ -20,6 +29,14 @@ on the third image when we pic a certain pixel with the cursor it goes into the 
 
 image3
 
+
 ![image1](https://user-images.githubusercontent.com/27013287/62392090-2904c600-b584-11e9-84c1-e161a0117f1e.jpg)
+
+
+This is the graph that we got
+
+
+![image](https://user-images.githubusercontent.com/27013287/62846772-3f332480-bcf0-11e9-9a72-ac0744d24c21.png)
+
 
 
