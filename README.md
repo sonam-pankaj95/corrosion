@@ -1,6 +1,27 @@
-# corrosion
-estimating corrosion using image processing and SVM or n-layered NN
+# Corrosion
+Estimating corrosion using image processing and SVM
 
+This Text has two parts:
+- The steps in the code
+- The theory behind the code.
+
+1. Steps in the code...
+
+
+a)Import Libraries
+b)Upload the pics of high entropy less entropy and one test image
+c)Extract image data and save it
+d)Data Frame formation by stacking up values
+e)Entering non corroded data en
+j)Entropy and contrast with prediction value
+f)Signing values to X as entropy contrast and Y as outputs (0/1) 
+g)Segregating points as corroded and non corroded only on the basis of output Y
+h)Fit SVM in the data set
+i)Getting the test image selecting one pixel and predicting its value for (0/1)
+j)Use SVC.predict to get the value (0/1)
+k)Get output in the form of corroded and non corroded
+
+2. Theory Behind the Code:
 
 Basically, I am using the property of Entropy variation with contrast to find a corroded area or patch on a metal surface because CNN is not good enough for classification of corrosion. We though of using the property of Natural vs Artificial texture and pass it through a svm or any n-layered neural network.
 
