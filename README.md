@@ -8,18 +8,18 @@ This Text has two parts:
 1. Steps in the code...
 
 
-a)Import Libraries
-b)Upload the pics of high entropy less entropy and one test image
-c)Extract image data and save it
-d)Data Frame formation by stacking up values
-e)Entering non corroded data en
-j)Entropy and contrast with prediction value
-f)Signing values to X as entropy contrast and Y as outputs (0/1) 
-g)Segregating points as corroded and non corroded only on the basis of output Y
-h)Fit SVM in the data set
-i)Getting the test image selecting one pixel and predicting its value for (0/1)
-j)Use SVC.predict to get the value (0/1)
-k)Get output in the form of corroded and non corroded
+a) Import Libraries
+b) Upload the pics of high entropy less entropy and one test image
+c) Extract image data and save it
+d) Data Frame formation by stacking up values
+e) Entering non corroded data en
+j) Entropy and contrast with prediction value
+f) Signing values to X as entropy contrast and Y as outputs (0/1) 
+g) Segregating points as corroded and non corroded only on the basis of output Y
+h) Fit SVM in the data set
+i) Getting the test image selecting one pixel and predicting its value for (0/1)
+j) Use SVC.predict to get the value (0/1)
+k) Get output in the form of corroded and non corroded
 
 2. Theory Behind the Code:
 
